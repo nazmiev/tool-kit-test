@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import tokenTest from './utils/utils'
+
+const TOKEN = import.meta.env.VITE_TOKEN;
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [count, setCount] = useState(0);
   return (
     <div>
-      <p>{tokenTest}</p>
       <button onClick={() => setCount((count) => count + 1)}>
         count is {count}
       </button>

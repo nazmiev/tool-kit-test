@@ -3,8 +3,6 @@ export type Repository = {
     stargazers: object;
     updatedAt: Date;
     url: string;
-    node?: any;
-    data?: any;
 }
 
 export enum Status {
@@ -14,13 +12,6 @@ export enum Status {
 }
 
 export interface RepoSliceState {
-    repos: Repository[];
+    repos: any;
     status: Status;
 }
-
-// export type SearchRepoParams = {
-//     sortBy: string, 
-//     category: string, 
-//     search: string, 
-//     currentPage: string
-// }

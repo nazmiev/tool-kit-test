@@ -1,6 +1,6 @@
 import styles from "./repoBlock.module.scss";
 
-const Repoblock = ( { name, stargazers, updatedAt, url} ) => {
+const Repoblock = ( { name, stargazers, updatedAt, url} :any ) => {
     return (
         <section className={styles.root}>
             <h3>Имя репозитория: {name}</h3>

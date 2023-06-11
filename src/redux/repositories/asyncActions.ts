@@ -18,6 +18,7 @@ export const fetchRepos = createAsyncThunk<Repository[]> ('posts/fetchRepos', as
                             totalCount
                         }
                         id
+                        nameWithOwner
                     }
                 }
             }

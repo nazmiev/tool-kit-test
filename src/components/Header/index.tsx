@@ -1,4 +1,5 @@
-import { Link, useLocation } from "react-router-dom";
+// import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logoYellow from "../../../favicon.ico";
 // import Search from "../Search";
 import styles from "./header.module.scss";

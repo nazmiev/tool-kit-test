@@ -6,6 +6,7 @@ import { useAppDispatch } from '../redux/store';
 import { selectReposData } from '../redux/repositories/selectors';
 
 const Home:React.FC = () => {
+  console.log('home');
   const dispatch = useAppDispatch();
   const { repos, status } = useSelector(selectReposData);
 

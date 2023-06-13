@@ -4,7 +4,9 @@ import logoYellow from "../../../favicon.ico";
 // import Search from "../Search";
 import styles from "./header.module.scss";
 
-function Header() {
+const Header:React.FC = () => {
+    console.log('Header');
+    
     // const { pathname } = useLocation();
 
     return (

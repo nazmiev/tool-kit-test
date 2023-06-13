@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import MainLayout from './layouts/MainLayout';
 
 const App: React.FC = () => {
+  console.log('app');
   return (
     <>
       {/* <Header /> */}

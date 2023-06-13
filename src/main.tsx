@@ -9,7 +9,6 @@ import { store } from "./redux/store.ts";
 const rootElem = document.getElementById('root');
 
 if (rootElem) {
-
   ReactDOM.createRoot(rootElem as HTMLElement).render(
     <BrowserRouter>
       <Provider store={store}>

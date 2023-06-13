@@ -3,14 +3,14 @@ import Home from './pages/Home';
 // import RepositoryPage from './pages/RepositoryPage/';
 import MainLayout from './layouts/MainLayout';
 
-const App: React.FC = () => {
+function App() {
   console.log('app');
   return (
     <>
       {/* <Header /> */}
       <Routes>
         <Route path="/" element={<MainLayout />}>
-          <Route path="/" element={<Home />} />
+          <Route path="" element={<Home />} />
           {/* <Route path="/repository/:owner/:reponame" element={<RepositoryPage />} /> */}
         </Route>
       </Routes>

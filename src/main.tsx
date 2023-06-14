@@ -14,8 +14,7 @@ const rootElem = document.getElementById('root');
 
 if (rootElem) {
   ReactDOM.createRoot(rootElem as HTMLElement).render(
-    // <BrowserRouter basename={base}>
-    <BrowserRouter>
+    <BrowserRouter basename={baseName}>
       <Provider store={store}>
         <App />
       </Provider>

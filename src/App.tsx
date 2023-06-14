@@ -10,11 +10,9 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route path="" element={<Home />} />
+      {/* <Route path="/repository/:owner/:reponame" element={<RepositoryPage />} /> */}
         </Route>
       </Routes>
-      {/* <Header /> */}
-      {/* <Route path="/repository/:owner/:reponame" element={<RepositoryPage />} /> */}
-      {/* <Footer /> */}
     </>
   )
 }

@@ -4,9 +4,9 @@ import { Outlet } from "react-router-dom";
 const MainLayout:React.FC = () => {
     console.log('MainLayout');
     return (
-        <div className="wrapper">
+        <div>
             {/* <Header /> */}
-            <div className="content">
+            <div>
                 <Outlet/>
             </div>
         </div>

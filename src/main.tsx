@@ -10,7 +10,7 @@ const rootElem = document.getElementById('root');
 
 if (rootElem) {
   ReactDOM.createRoot(rootElem as HTMLElement).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/tool-kit-test">
       <Provider store={store}>
         <App />
       </Provider>

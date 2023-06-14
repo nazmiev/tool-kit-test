@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/tool-kit-test/" element={<MainLayout />}>
+        <Route path="/" element={<MainLayout />}>
           <Route path="" element={<Home />} />
-          <Route path="/repository/:owner/:reponame" element={<RepositoryPage />} />
+          <Route path="repository/:owner/:reponame" element={<RepositoryPage />} />
         </Route>
       </Routes>
     </>

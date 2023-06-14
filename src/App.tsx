@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 // import RepositoryPage from './pages/RepositoryPage/';
-import MainLayout from './layouts/MainLayout';
+import MainLayout from './layouts/MainLayout.tsx';
 
 function App() {
   console.log('app');

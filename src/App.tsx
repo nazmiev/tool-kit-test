@@ -4,7 +4,6 @@ import RepositoryPage from './pages/RepositoryPage/';
 import MainLayout from './layouts/MainLayout.tsx';
 
 function App() {
-  console.log('app');
   return (
     <>
       <Routes>

@@ -1,11 +1,11 @@
-import { Link, useLocation } from "react-router-dom";
+// import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logoYellow from "../../../favicon.ico";
-import Search from "../Search";
+// import Search from "../Search";
 import styles from "./header.module.scss";
 
 const Header:React.FC = () => {
-    console.log('Header');
-    const { pathname } = useLocation();
+    // const { pathname } = useLocation();
 
     return (
         <div className={styles.root}>
@@ -15,7 +15,7 @@ const Header:React.FC = () => {
                         <img width="45" src={logoYellow} loading="lazy" alt="Tool-Kit" />
                     </div>
                 </Link>
-                {pathname === '/' && <Search />}
+                {/* {pathname === '/' && <Search />} */}
             </div>
         </div>
     )

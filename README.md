@@ -1,0 +1,5 @@
+- React
+- Redux
+- GraphQL
+- недоделанный Typescript
+- Настроил деплой
